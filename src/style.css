@@ -1,0 +1,6 @@
+html, body, #App, #App > div, #App > div > main, #App > div > main > textarea {
+  height: 100%;
+}
+#App > div > main > textarea {
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+{
+  "env": {
+    "development": {
+      "application/javascript": {
+        "presets": [
+          ["env", { "targets": { "electron": "1.6.0" } }],
+          "react",
+          "stage-1"
+        ],
+        "plugins": ["transform-decorators-legacy", "transform-class-properties", "transform-async-to-generator", "transform-es2015-classes"],
+        "sourceMaps": "inline"
+      }
+    },
+    "production": {
+      "application/javascript": {
+        "presets": [
+          ["env", { "targets": { "electron": "1.6.0" } }],
+          "react",
+          "stage-1"
+        ],
+        "plugins": ["transform-decorators-legacy", "transform-class-properties", "transform-async-to-generator", "transform-es2015-classes"],
+        "sourceMaps": "none"
+      }
+    }
+  }
+}
